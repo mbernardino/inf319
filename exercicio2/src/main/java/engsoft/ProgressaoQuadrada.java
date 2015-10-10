@@ -28,7 +28,7 @@ public class ProgressaoQuadrada extends Progressao {
 	
 	// método para calcular o quadrado
 	public int calcularQuadrado (int q) {
-		return (int) Math.pow(iesimoTermo(q), 2);
+		return (int) Math.pow(q, 2);
 	}
 	
 	// chama o iesimoTermo e calcula o quadrado
